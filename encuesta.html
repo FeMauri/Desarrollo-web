@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content="width=device-width,initial-scale=1">
+	<meta name ="description" content="encuesta de la serie Rick and Morty">
+	<meta name ="keywords" content="Rick and Morty Serie encuesta">
+	<title>Encuesta | Rick and Morty</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class ="fondo">
+	<header>
+		<img src="imagenes/Logo.png" class="logo" alt="">
+		<button class="boton"><a href="index.html">inicio</a></button>	
+		<button class="boton"><a href="personajes.html">personajes</a></button>
+		<button class="boton"><a href="episodios.html">episodios</a></button>
+		<button class="boton"><a href="creadores.html">creadores</a></button>
+		<button class="boton"><a href="encuesta.html">encuesta</a></button>
+	</header>
+
+	<main>
+		<h1 class="titulo">Encuesta</h1>
+		<form >
+			<fieldset>
+				<legend>Contanos sobre vos</legend>
+				<label for="nombre">Nombre: </label>
+				<input type="text" name="nombre" placeholder="¿Cómo te llamás?">
+				<br>
+				<label for="email">Email: </label>
+				<input type="email" name="email" placeholder="Tu email">
+				<br>
+				<label for="personaje">Personaje favorito</label>
+				<select name="personaje">
+				<option value="Rick">Rick</option>
+				<option value="Morty">Morty</option>
+				<option value="Summer">Summer</option>
+				<option value="Beth">Beth</option>
+				<option value="Jerry">Jerry</option>
+				</select>
+				<br><br>
+				<div>¿Tienes Merchandising de Rick and Morty?</div>
+				<br>
+				<input type="checkbox" name="merchandising" value="figuras">Figuras
+				<input type="checkbox" name="merchandising" value="stickers">Stickers
+				<input type="checkbox" name="merchandising" value="posters">Posters
+				<input type="checkbox" name="merchandising" value="juegos">Juegos
+				<br><br>
+				<input type="reset" value="Reiniciar formulario">
+				<input type="submit" value="Enviar formulario">
+
+			</fieldset>
+		</form>
+	</main>
+
+	<footer>
+		<ul>
+			<li><a href="https://twitter.com/RickAndMorty">twitter</a></li>
+			<li><a href="https://www.instagram.com/rickandmorty/">instagram</a></li>
+			<li><a href="https://www.rickandmorty.com/">sitio web</a></li>			
+		</ul>
+	</footer>
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="js/bootstrap.bundle.min"></script>
+</html>
