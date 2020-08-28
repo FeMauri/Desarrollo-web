@@ -1,0 +1,19 @@
+.tablaEpisodios {
+  border: solid 2px;
+  border-color: #6d8fab; }
+  .tablaEpisodios .tablaEpisodios__Temporada1 {
+    background-color: #875185; }
+    .tablaEpisodios .tablaEpisodios__Temporada1 .tablaEpisodios__Temporada1__Episodio {
+      color: #a8b315; }
+  .tablaEpisodios .tablaEpisodios__Temporada2 {
+    background-color: #877a51; }
+    .tablaEpisodios .tablaEpisodios__Temporada2 .tablaEpisodios__Temporada2__Episodio {
+      color: #1f45c2; }
+  .tablaEpisodios .tablaEpisodios__Temporada3 {
+    background-color: #7fa868; }
+    .tablaEpisodios .tablaEpisodios__Temporada3 .tablaEpisodios__Temporada3__Episodio {
+      color: #cc1414; }
+  .tablaEpisodios .tablaEpisodios__Temporada4 {
+    background-color: #b0af74; }
+    .tablaEpisodios .tablaEpisodios__Temporada4 .tablaEpisodios__Temporada4__Episodio {
+      color: #c21da6; }
